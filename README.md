@@ -46,7 +46,8 @@ This node is compatible with n8n version 1.0.0 and above.
 2. Configure your Langfuse credentials
 3. Set the **Prompt Name** to fetch from Langfuse
 4. Optionally set a **Prompt Label** (defaults to "production")
-5. Provide **Variables** as JSON for template rendering
+5. Provide **Variables** using n8n's assignment collection for template rendering
+6. Configure **Keep Original on Error** behavior (new in v0.2.0)
 
 The node will:
 - Fetch the prompt template from Langfuse
@@ -59,6 +60,18 @@ The node will:
 * [Langfuse documentation](https://langfuse.com/docs)
 
 ## Version history
+
+### 0.2.0
+
+**New Features:**
+- Added **Keep Original on Error** option for template rendering
+- Improved variable handling with proper n8n assignments support
+- Enhanced type safety with TypeScript interfaces
+
+**Improvements:**
+- Better error handling with n8n standard error types
+- Cleaner code structure with extracted utility functions
+- More robust variable parsing for different input formats
 
 ### 0.1.0
 
