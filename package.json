@@ -1,5 +1,5 @@
 {
-	"name": "n8n-nodes-langfuse-prompt",
+	"name": "@nodeskai/n8n-nodes-langfuse-prompt",
 	"version": "0.1.0",
 	"description": "n8n community node to fetch and render prompts from Langfuse",
 	"license": "MIT",
@@ -12,7 +12,7 @@
 		"ai"
 	],
 	"author": {
-		"name": "xzq.xu",
+		"name": "xzq-xu",
 		"email": "zhiqiang.xu@nodeskai.com"
 	},
 	"repository": {
