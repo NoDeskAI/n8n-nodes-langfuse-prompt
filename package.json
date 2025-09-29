@@ -1,5 +1,5 @@
 {
-	"name": "@nodeskai/n8n-nodes-langfuse-prompt",
+	"name": "@xzq-xu/n8n-nodes-langfuse-prompt",
 	"version": "0.1.0",
 	"description": "n8n community node to fetch and render prompts from Langfuse",
 	"license": "MIT",
