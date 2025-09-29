@@ -5,7 +5,7 @@ import {
 
 export class LangfuseApi implements ICredentialType {
 	name = 'langfuseApi';
-	displayName = 'Langfuse API (Basic Auth)';
+	displayName = 'Langfuse API (Basic Auth) API';
 	documentationUrl = 'https://langfuse.com/docs';
 	properties: INodeProperties[] = [
 		{
@@ -21,6 +21,7 @@ export class LangfuseApi implements ICredentialType {
 			displayName: 'Public Key (Username)',
 			name: 'publicKey',
 			type: 'string',
+			typeOptions: { password: true },
 			default: '',
 			required: true,
 		},

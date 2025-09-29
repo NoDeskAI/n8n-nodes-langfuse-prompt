@@ -6,12 +6,13 @@ import {
 } from 'n8n-workflow';
 
 // 模板渲染函数
-function renderTemplate(template: string, context: Record<string, any> = {}) {
+function renderTemplate(template: string, context: Record<string, object> = {}) {
 	return template.replace(/\{\{(.*?)\}\}/g, (_, expr) => {
 		try {
 			return new Function(...Object.keys(context), `return (${expr})`)(...Object.values(context));
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch (e) {
-			return "";
+			return '';
 		}
 	});
 }
