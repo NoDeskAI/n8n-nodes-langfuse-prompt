@@ -25,6 +25,10 @@ build/
 *.swo
 *~
 
+# Cursor/AI tools
+.specstory/
+.cursorindexingignore
+
 # OS generated files
 .DS_Store
 .DS_Store?
