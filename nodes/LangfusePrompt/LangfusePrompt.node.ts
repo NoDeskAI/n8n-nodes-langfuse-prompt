@@ -90,6 +90,7 @@ export class LangfusePrompt implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Langfuse Prompt',
 		name: 'langfusePrompt',
+        icon: 'file:langfusePrompt.svg',
 		group: ['transform'],
 		version: 1,
 		description: 'Fetch a prompt from Langfuse and render with variables',
