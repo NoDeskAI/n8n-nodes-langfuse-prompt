@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-nodeskai-langfuse-prompt",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "n8n community node to fetch and render prompts from Langfuse",
 	"license": "MIT",
 	"homepage": "https://github.com/NoDeskAI/n8n-nodes-langfuse-prompt",
